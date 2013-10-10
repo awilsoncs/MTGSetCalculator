@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title> MTG Set Calculator </title>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+
+<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+
+<body class="container">
+	<header>
+		<div class="hero-unit">
+			<h1>
+			Welcome to MTG Set Calculator!
+			</h1>
+			<p> by jazztoken</p>
+		</div>
+	</header>
+	<form action="" id="settings">
+		<label for="setsize">Set Size: </label>
+		<input type="text" id="setsize" name="setsize" value=255 />
+		<input type="button" value="Calculate" name="turnItOn"
+			onclick="calculate();" class="btn btn-primary btn-large" />
+		<select>
+			<option value="default">Default</option>
+			<option value="theros">Theros</option>
+			<option value="return_to_ravnica">Return to Ravnica</option>
+			<option value="innistrad">Innistrad</option>
+		</select>
+
+	</form>
+
+	<div class="row" id="rarityContainer">
+	</div>
+	<div id="about">
+	</div>
+	<div id="copyright">
+	</div>
+</body>
+</html>

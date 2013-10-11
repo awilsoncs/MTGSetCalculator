@@ -1,0 +1,31 @@
+.White {
+	list-style-image: url("../resources/Manaw.gif");
+}
+
+.Blue {
+	list-style-image: url("../resources/Manau.gif");
+}
+
+.Black {
+	list-style-image: url("../resources/Manab.gif");
+}
+
+.Red {
+	list-style-image: url("../resources/Manar.gif");
+}
+
+.Green {
+	list-style-image: url("../resources/Manag.gif");
+}
+
+.Other {
+	list-style-image: url("../resources/Mana1.gif");
+}
+
+.creatures {
+	list-style-image: url("../resources/creature.png");
+}
+
+.noncreatures {
+	list-style-image: url("../resources/noncreature.png");
+}
